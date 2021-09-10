@@ -1,0 +1,18 @@
+public class Man {
+
+void drawMan() {  
+size(400, 400); } 
+void draw() { 
+line(300, 200, 100, 200); //hand
+line(200, 200, 200, 340);//body
+line(200, 341, 120, 390);//right foot
+line(200, 341, 270, 390);//left foot
+
+
+drawCircle(); 
+} 
+void drawCircle() {  
+ellipse(200, 162, 70, 70); 
+
+}
+}
