@@ -13,6 +13,8 @@ drawCircle();
 } 
 void drawCircle() {  
 ellipse(200, 162, 70, 70); 
-
+ellipse(185,155,10,10); //right eye
+ellipse(215,155,10,10);//left eye
+arc(195,170,200,190,215,170);//smile (why dont work?)
 }
 }
